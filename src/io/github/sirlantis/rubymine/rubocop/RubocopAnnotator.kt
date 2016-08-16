@@ -116,8 +116,8 @@ class RubocopAnnotator : ExternalAnnotator<RubocopAnnotator.Input, RubocopAnnota
             "fatal" -> return HighlightSeverity.ERROR
             "warning" -> return HighlightSeverity.WARNING
             "convention" -> return HighlightSeverity.WEAK_WARNING
-            "refactor" -> return HighlightSeverity.INFO
-            else -> return HighlightSeverity.INFO
+            "refactor" -> return HighlightSeverity.INFORMATION
+            else -> return HighlightSeverity.INFORMATION
         }
     }
 

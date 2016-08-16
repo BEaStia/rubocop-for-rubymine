@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ruby">
+    <CLASSES>
+      <root url="jar://$APPLICATION_PLUGINS_DIR$/ruby/lib/ruby.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
