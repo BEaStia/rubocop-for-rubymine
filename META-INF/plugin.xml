@@ -31,14 +31,14 @@
     <depends optional="true">com.intellij.modules.ruby</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <externalAnnotator language="ruby" implementationClass="io.github.sirlantis.rubymine.rubocop.RubocopAnnotator"/>
-        <localInspection language="ruby" groupPath="Ruby" shortName="RubocopInspection"
+        <externalAnnotator language="ruby" implementationClass="io.github.sirlantis.rubymine.rubocop.JavaRubocopAnnotator"/>
+        <localInspection language="ruby" groupPath="Ruby" shortName="JavaRubocopInspection"
                          enabledByDefault="true" level="ERROR"
-                         bundle="io.github.sirlantis.rubymine.rubocop.RubocopBundle"
-                         implementationClass="io.github.sirlantis.rubymine.rubocop.RubocopInspection"
+                         bundle="io.github.sirlantis.rubymine.rubocop.JavaRubocopBundle"
+                         implementationClass="io.github.sirlantis.rubymine.rubocop.JavaRubocopInspection"
                          hasStaticDescription="true"
                          displayName="Rubocop"
-                         groupKey="rubcop.inspection.group.name"/>
+                         groupKey="rubocop.inspection.group.name"/>
     </extensions>
 
     <application-components>
