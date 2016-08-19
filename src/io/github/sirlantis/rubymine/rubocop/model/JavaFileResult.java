@@ -11,7 +11,6 @@ import java.util.Objects;
  * Created by igorpavlov on 19.08.16.
  */
 public class JavaFileResult {
-
     public String path;
     public List<JavaOffense> offenses;
     public JavaFileResult(String path, List<JavaOffense> offenses) {
