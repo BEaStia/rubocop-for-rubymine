@@ -14,7 +14,7 @@ public class JavaRubocopBundle {
     public static String LOG_ID = "io.github.sirlantis.rubymine.rubocop";
 
     public static String message(String key, String... params) {
-        return CommonBundle.message(instance, key, params);
+        return CommonBundle.message(instance, key, (Object) params);
     }
 
     private static Reference<ResourceBundle> ourBundle = null;

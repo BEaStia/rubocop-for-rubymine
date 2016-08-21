@@ -32,9 +32,6 @@ import java.util.LinkedList;
 /**
  * Created by igorpavlov on 17.08.16.
  */
-/*public class JavaRubocopTask(Module module, ArrayList<String> paths) extends Backgroundable(module.project, "Running RuboCop", true) {
-
-}*/
 
 public class JavaRubocopTask extends Task.Backgroundable {
 

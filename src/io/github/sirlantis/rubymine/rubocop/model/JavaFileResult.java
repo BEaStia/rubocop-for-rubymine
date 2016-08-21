@@ -26,7 +26,7 @@ public class JavaFileResult {
                 result = cache.get(lineNumber);
             else
             {
-                result = new ArrayList<JavaOffense>();
+                result = new ArrayList<>();
                 cache.put(lineNumber, result);
             }
 
